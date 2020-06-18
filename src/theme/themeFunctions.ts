@@ -4,7 +4,7 @@ export const ButtonStyle = ({ theme }) => css`
   background-color: ${theme.buttonBackground};
 `
 
-export const ButtonStyleHTML = (theme) => css`
+export const ButtonStyleHTML = ({ theme }) => css`
   margin: ${theme.baseSpacing};
   padding: 8px;
   border: 0px;
