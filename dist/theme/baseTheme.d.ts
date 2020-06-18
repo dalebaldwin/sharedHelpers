@@ -1,5 +1,5 @@
 declare const Theme: {
-    buttonBackgroud: string;
+    buttonBackground: string;
     buttonText: string;
     backgroundColor: string;
     baseSpacing: string;

@@ -1,10 +1,10 @@
 "use strict";
-var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
-    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
-    return cooked;
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-var styled_components_1 = require("styled-components");
-var ButtonStyle = function (theme) { return styled_components_1.css(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  background-color: ", "\n"], ["\n  background-color: ", "\n"])), theme.buttonColor); };
-exports.default = ButtonStyle;
-var templateObject_1;
+exports.ButtonStyle = function (_a) {
+    var theme = _a.theme;
+    return "\n  background-color: " + theme.buttonBackground + ";\n";
+};
+exports.ButtonStyleHTML = function (_a) {
+    var theme = _a.theme;
+    return "\n  margin: " + theme.baseSpacing + ";\n  padding: 8px;\n  border: 0px;\n  border-radius: 4px;\n  background-color: " + theme.buttonBackground + ";\n  font-family: Karla;\n  font-size: 16px;\n  font-weight: bold;\n  font-stretch: normal;\n  font-style: normal;\n  line-height: 1.75;\n  letter-spacing: -0.32px;\n  text-align: center;\n  color: " + theme.buttonText + ";\n";
+};
