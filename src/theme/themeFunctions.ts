@@ -1,10 +1,9 @@
-import { css } from 'styled-components'
 
-export const ButtonStyle = ({ theme }) => css`
+export const ButtonStyle = ({ theme }) => `
   background-color: ${theme.buttonBackground};
 `
 
-export const ButtonStyleHTML = ({ theme }) => css`
+export const ButtonStyleHTML = ({ theme }) => `
   margin: ${theme.baseSpacing};
   padding: 8px;
   border: 0px;
