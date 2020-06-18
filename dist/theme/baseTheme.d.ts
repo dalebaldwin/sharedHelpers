@@ -4,3 +4,4 @@ declare const Theme: {
     backgroundColor: string;
     baseSpacing: string;
 };
+export default Theme;
