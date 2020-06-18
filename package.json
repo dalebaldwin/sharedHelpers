@@ -1,0 +1,13 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  },
+  "peerDependencies": {
+    "@types/react": "^16.9.38",
+    "react": "^16.13.1"
+  }
+}
