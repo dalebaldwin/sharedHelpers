@@ -4,3 +4,5 @@ const Theme = {
   backgroundColor: "#eee",
   baseSpacing: "16px"
 }
+
+export default Theme
