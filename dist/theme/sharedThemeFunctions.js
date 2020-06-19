@@ -14,7 +14,7 @@ exports.StyledSharedTextExplainer = function (_a) {
 };
 exports.StyledSharedButton = function (_a) {
     var theme = _a.theme;
-    return "\n  margin: " + theme.baseSpacing + ";\n  padding: 12px;\n  border-radius: 4px;\n  background-color: " + theme.buttonBackground + ";\n  font-family: 'Karla';\n  color: " + theme.buttonText + ";\n  font-weight: 600;\n  border: 0px;\n";
+    return "\n  margin: " + theme.baseSpacing + ";\n  padding: 12px;\n  border: 0px;\n  border-radius: 4px;\n  background-color: " + theme.buttonBackground + ";\n  font-family: 'Karla';\n  font-size: 16px;\n  color: " + theme.buttonText + ";\n  font-weight: 600;\n  text-align: center;\n";
 };
 exports.StyledSharedButtonText = function (_a) {
     var theme = _a.theme;

@@ -21,12 +21,14 @@ export const StyledSharedTextExplainer = ({ theme }) => `
 export const StyledSharedButton = ({ theme }) => `
   margin: ${theme.baseSpacing};
   padding: 12px;
+  border: 0px;
   border-radius: 4px;
   background-color: ${theme.buttonBackground};
   font-family: 'Karla';
+  font-size: 16px;
   color: ${theme.buttonText};
   font-weight: 600;
-  border: 0px;
+  text-align: center;
 `
 
 export const StyledSharedButtonText = ({ theme }) => `
