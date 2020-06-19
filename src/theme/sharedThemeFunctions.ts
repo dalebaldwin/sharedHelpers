@@ -19,6 +19,9 @@ export const StyledSharedButton = ({ theme }) => `
   padding: 12px;
   border-radius: 4px;
   background-color: ${theme.buttonBackground};
+  color: ${theme.buttonText};
+  font-weight: 600;
+  border: 0px;
 `
 
 export const StyledSharedButtonText = ({ theme }) => `
