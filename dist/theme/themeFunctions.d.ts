@@ -22,6 +22,9 @@ export declare const StyledContainerMobile: ({ theme }: {
 export declare const StyledCountTextMobile: ({ theme }: {
     theme: any;
 }) => string;
+export declare const StyledButtonContainerMobile: ({ theme }: {
+    theme: any;
+}) => string;
 export declare const StyledButtonTextMobile: ({ theme }: {
     theme: any;
 }) => string;

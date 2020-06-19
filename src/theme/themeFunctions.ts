@@ -79,6 +79,13 @@ export const StyledCountTextMobile = ({theme}) => `
   font-family: 'Karla-Regular';
 `
 
+export const StyledButtonContainerMobile = ({theme}) => `
+  margin: ${theme.baseSpacing};
+  padding: 12px;
+  border-radius: 4px;
+  background-color: ${theme.buttonBackground};
+`
+
 export const StyledButtonTextMobile = ({theme}) => `
   text-align: center;
   color: ${theme.buttonText};
@@ -93,7 +100,7 @@ export const StyledExplainerTextContainerMobile = ({theme}) => `
 
 export const StyledExplainerTextMobile = ({theme}) => `
   text-align: center;
-  color: ${theme.buttonText};
+  color: ${theme.baseText};
   font-family: 'Karla';
   font-weight: 600;
   font-size: 16px;

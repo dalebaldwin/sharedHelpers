@@ -3,5 +3,6 @@ declare const Theme: {
     buttonText: string;
     backgroundColor: string;
     baseSpacing: string;
+    basicText: string;
 };
 export default Theme;

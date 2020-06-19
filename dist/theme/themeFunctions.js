@@ -34,6 +34,10 @@ exports.StyledCountTextMobile = function (_a) {
     var theme = _a.theme;
     return "\n  font-size: 36px;\n  padding: " + theme.baseSpacing + ";\n  text-align: center;\n  font-family: 'Karla-Regular';\n";
 };
+exports.StyledButtonContainerMobile = function (_a) {
+    var theme = _a.theme;
+    return "\n  margin: " + theme.baseSpacing + ";\n  padding: 12px;\n  border-radius: 4px;\n  background-color: " + theme.buttonBackground + ";\n";
+};
 exports.StyledButtonTextMobile = function (_a) {
     var theme = _a.theme;
     return "\n  text-align: center;\n  color: " + theme.buttonText + ";\n  font-family: 'Karla';\n  font-weight: 600;\n  font-size: 16px;\n";
@@ -44,5 +48,5 @@ exports.StyledExplainerTextContainerMobile = function (_a) {
 };
 exports.StyledExplainerTextMobile = function (_a) {
     var theme = _a.theme;
-    return "\n  text-align: center;\n  color: " + theme.buttonText + ";\n  font-family: 'Karla';\n  font-weight: 600;\n  font-size: 16px;\n";
+    return "\n  text-align: center;\n  color: " + theme.baseText + ";\n  font-family: 'Karla';\n  font-weight: 600;\n  font-size: 16px;\n";
 };
