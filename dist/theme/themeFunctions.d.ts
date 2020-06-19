@@ -19,7 +19,15 @@ export declare const TextExplainerStyleWeb: ({ theme }: {
 export declare const StyledContainerMobile: ({ theme }: {
     theme: any;
 }) => string;
-export declare const StyledCountTextMobile: any;
-export declare const StyledButtonTextMobile: any;
-export declare const StyledExplainerTextContainerMobile: any;
-export declare const StyledExplainerTextMobile: any;
+export declare const StyledCountTextMobile: ({ theme }: {
+    theme: any;
+}) => string;
+export declare const StyledButtonTextMobile: ({ theme }: {
+    theme: any;
+}) => string;
+export declare const StyledExplainerTextContainerMobile: ({ theme }: {
+    theme: any;
+}) => string;
+export declare const StyledExplainerTextMobile: ({ theme }: {
+    theme: any;
+}) => string;

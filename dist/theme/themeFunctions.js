@@ -25,15 +25,24 @@ exports.TextExplainerStyleWeb = function (_a) {
     var theme = _a.theme;
     return "\n  font-size: 16px;\n  padding: " + theme.baseSpacing + ";\n  font-family: 'Karla', sans-serif;\n";
 };
+// Source from Mobile
 exports.StyledContainerMobile = function (_a) {
     var theme = _a.theme;
     return "\n  flex: 2;\n  flex-direction: column;\n  justify-content: center;\n  align-content: center;\n  background-color: " + theme.backgroundColor + ";\n";
 };
-exports.StyledCountTextMobile = styled.Text({ theme: theme });
-"\n  font-size: 36px;\n  padding: " + theme.baseSpacing + ";\n  text-align: center;\n  font-family: 'Karla-Regular';\n";
-exports.StyledButtonTextMobile = styled.View({ theme: theme });
-"\n  text-align: center;\n  color: " + theme.buttonText + ";\n  font-family: 'Karla';\n  font-weight: 600;\n  font-size: 16px;\n";
-exports.StyledExplainerTextContainerMobile = styled.View({ theme: theme });
-"\n  padding: " + theme.baseSpacing + ";\n";
-exports.StyledExplainerTextMobile = styled.Text({ theme: theme });
-"\n  text-align: center;\n  color: " + theme.buttonText + ";\n  font-family: 'Karla';\n  font-weight: 600;\n  font-size: 16px;\n";
+exports.StyledCountTextMobile = function (_a) {
+    var theme = _a.theme;
+    return "\n  font-size: 36px;\n  padding: " + theme.baseSpacing + ";\n  text-align: center;\n  font-family: 'Karla-Regular';\n";
+};
+exports.StyledButtonTextMobile = function (_a) {
+    var theme = _a.theme;
+    return "\n  text-align: center;\n  color: " + theme.buttonText + ";\n  font-family: 'Karla';\n  font-weight: 600;\n  font-size: 16px;\n";
+};
+exports.StyledExplainerTextContainerMobile = function (_a) {
+    var theme = _a.theme;
+    return "\n  padding: " + theme.baseSpacing + ";\n";
+};
+exports.StyledExplainerTextMobile = function (_a) {
+    var theme = _a.theme;
+    return "\n  text-align: center;\n  color: " + theme.buttonText + ";\n  font-family: 'Karla';\n  font-weight: 600;\n  font-size: 16px;\n";
+};

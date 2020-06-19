@@ -62,6 +62,8 @@ export const TextExplainerStyleWeb = ({ theme }) => `
   font-family: 'Karla', sans-serif;
 `
 
+// Source from Mobile
+
 export const StyledContainerMobile = ({theme}) => `
   flex: 2;
   flex-direction: column;
@@ -70,14 +72,14 @@ export const StyledContainerMobile = ({theme}) => `
   background-color: ${theme.backgroundColor};
 `
 
-export const StyledCountTextMobile = styled.Text({theme}) => `
+export const StyledCountTextMobile = ({theme}) => `
   font-size: 36px;
   padding: ${theme.baseSpacing};
   text-align: center;
   font-family: 'Karla-Regular';
 `
 
-export const StyledButtonTextMobile = styled.View({theme}) => `
+export const StyledButtonTextMobile = ({theme}) => `
   text-align: center;
   color: ${theme.buttonText};
   font-family: 'Karla';
@@ -85,11 +87,11 @@ export const StyledButtonTextMobile = styled.View({theme}) => `
   font-size: 16px;
 `
 
-export const StyledExplainerTextContainerMobile = styled.View({theme}) => `
+export const StyledExplainerTextContainerMobile = ({theme}) => `
   padding: ${theme.baseSpacing};
 `
 
-export const StyledExplainerTextMobile = styled.Text({theme}) => `
+export const StyledExplainerTextMobile = ({theme}) => `
   text-align: center;
   color: ${theme.buttonText};
   font-family: 'Karla';
