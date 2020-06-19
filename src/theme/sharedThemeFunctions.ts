@@ -6,6 +6,10 @@ export const StyledSharedCountText = ({ theme }) => `
   font-weight: 400;
 `
 
+export const StyledSharedTextExplainerWrapper = ({ theme }) => `
+  padding: ${theme.baseSpacing}
+`
+
 export const StyledSharedTextExplainer = ({ theme }) => `
   text-align: center;
   color: ${theme.basicText};
@@ -19,6 +23,7 @@ export const StyledSharedButton = ({ theme }) => `
   padding: 12px;
   border-radius: 4px;
   background-color: ${theme.buttonBackground};
+  font-family: 'Karla';
   color: ${theme.buttonText};
   font-weight: 600;
   border: 0px;
@@ -40,5 +45,6 @@ export const StyledSharedButtonText = ({ theme }) => `
 // Can't nest CSS
 // Can't use media queries
 
+// Excess values in RN styles
 
 
