@@ -24,11 +24,6 @@ export const StyledSharedButton = ({ theme }) => `
   border: 0px;
   border-radius: 4px;
   background-color: ${theme.buttonBackground};
-  font-family: 'Karla';
-  font-size: 16px;
-  color: ${theme.buttonText};
-  font-weight: 600;
-  text-align: center;
 `
 
 export const StyledSharedButtonText = ({ theme }) => `
