@@ -61,3 +61,38 @@ export const TextExplainerStyleWeb = ({ theme }) => `
   padding: ${theme.baseSpacing};
   font-family: 'Karla', sans-serif;
 `
+
+export const StyledContainerMobile = ({theme}) => `
+  flex: 2;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: ${theme.backgroundColor};
+`
+
+export const StyledCountTextMobile = styled.Text({theme}) => `
+  font-size: 36px;
+  padding: ${theme.baseSpacing};
+  text-align: center;
+  font-family: 'Karla-Regular';
+`
+
+export const StyledButtonTextMobile = styled.View({theme}) => `
+  text-align: center;
+  color: ${theme.buttonText};
+  font-family: 'Karla';
+  font-weight: 600;
+  font-size: 16px;
+`
+
+export const StyledExplainerTextContainerMobile = styled.View({theme}) => `
+  padding: ${theme.baseSpacing};
+`
+
+export const StyledExplainerTextMobile = styled.Text({theme}) => `
+  text-align: center;
+  color: ${theme.buttonText};
+  font-family: 'Karla';
+  font-weight: 600;
+  font-size: 16px;
+`
