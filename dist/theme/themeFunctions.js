@@ -48,5 +48,5 @@ exports.StyledExplainerTextContainerMobile = function (_a) {
 };
 exports.StyledExplainerTextMobile = function (_a) {
     var theme = _a.theme;
-    return "\n  text-align: center;\n  color: " + theme.baseText + ";\n  font-family: 'Karla';\n  font-weight: 600;\n  font-size: 16px;\n";
+    return "\n  text-align: center;\n  color: " + theme.baseText + ";\n  font-family: 'Karla';\n  font-weight: 400;\n  font-size: 16px;\n";
 };

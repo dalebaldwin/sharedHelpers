@@ -102,6 +102,6 @@ export const StyledExplainerTextMobile = ({theme}) => `
   text-align: center;
   color: ${theme.baseText};
   font-family: 'Karla';
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
 `
