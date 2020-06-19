@@ -4,3 +4,9 @@ export declare const StyledSharedCountText: ({ theme }: {
 export declare const StyledSharedTextExplainer: ({ theme }: {
     theme: any;
 }) => string;
+export declare const StyledSharedButton: ({ theme }: {
+    theme: any;
+}) => string;
+export declare const StyledSharedButtonText: ({ theme }: {
+    theme: any;
+}) => string;
